@@ -7,7 +7,8 @@ def reformat_languages(languages)
 languages.each do |function, lang_type|
   curr_function = []
   lang_type.each do |lang, type|
-    curr_function << [:style => [function]}]
+    curr_function << function
+    
   end
   puts curr_function.flatten.join","
 
