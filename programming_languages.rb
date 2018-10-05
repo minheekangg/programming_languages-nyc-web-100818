@@ -5,14 +5,18 @@ new_hash_type = {}
 new_hash_style = {}
 new_hash = {}
 
+grouped = languages.group_by {|el| el|
+  puts grouped
+
+
+
+
   languages.each do |function, lang_type|
     lang_type.each do |lang, type|
             curr_function = []
             curr_function << function
       type.each do |key, value|
         new_hash_type[lang] = type
-
-
       new_hash_style[lang] = {:style =>curr_function}
     end
     end
