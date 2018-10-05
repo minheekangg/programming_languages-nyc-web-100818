@@ -4,7 +4,9 @@ def reformat_languages(languages)
   grouped.each do |grouped_k, grouped_v|
     grouped_k.each do |grouped_first, grouped_second|
       grouped_second.each do |second, rest|
+        puts second
     end
+  end
   end
 end
 
