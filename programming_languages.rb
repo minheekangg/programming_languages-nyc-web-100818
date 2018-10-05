@@ -8,7 +8,7 @@ languages.each do |function, lang_type|
   curr_function = []
   lang_type.each do |lang, type|
     curr_function << function
-    
+    new_hash << [{lang => [function]}]
   end
   puts curr_function.flatten.join","
 
