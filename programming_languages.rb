@@ -1,5 +1,4 @@
 def reformat_languages(languages)
-
   languages.each do |function, lang_type|
     lang_type.each do |lang, type|
       type.each do |key, value|
@@ -27,4 +26,3 @@ end
 end
 return new_hash
 end
-
