@@ -2,8 +2,6 @@ def reformat_languages(languages)
   puts languages.group_by {|k,v|  v}.join(",")
 end
 
-end
-
 =begin
   languages.each do |function, lang_type|
     lang_type.each do |lang, type|
