@@ -13,7 +13,6 @@ grouped = languages.group_by {|k,v| v}
     group_blank = []
     gdata.each do |gkey, grest|
       group_blank << gkey
-      puts group_blank
     end
   end
 
