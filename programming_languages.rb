@@ -1,5 +1,5 @@
 def reformat_languages(languages)
-  new_hash = {}
+  new_hash = []
     new_hash_type = {}
     new_hash_style = {}
     curr_function = []
