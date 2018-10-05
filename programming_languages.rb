@@ -1,15 +1,5 @@
 def reformat_languages(languages)
-  grouped = languages.group_by {|k,v|  v}
 
-  grouped.each do |grouped_k, grouped_v|
-    puts grouped_v
-    grouped_k.each do |grouped_first, grouped_second|
-
-  end
-  end
-end
-
-=begin
   languages.each do |function, lang_type|
     lang_type.each do |lang, type|
       type.each do |key, value|
