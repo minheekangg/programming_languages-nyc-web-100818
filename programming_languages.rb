@@ -2,10 +2,11 @@ def reformat_languages(languages)
   grouped = languages.group_by {|k,v|  v}
 
   grouped.each do |grouped_k, grouped_v|
-    grouped = grouped[:type].delete
     grouped_k.each do |grouped_first, grouped_second|
       grouped_second.each do |second, rest|
-        puts rest
+        rest.each do |last, delete|
+          put last
+        end
     end
   end
   end
