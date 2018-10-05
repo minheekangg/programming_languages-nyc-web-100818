@@ -6,8 +6,6 @@ def reformat_languages(languages)
 
 languages.each do |function, lang_type|
   curr_function = []
-  puts function
-  puts lang_type
   lang_type.each do |lang, type|
     curr_function << [{function => lang}]
     puts curr_function
