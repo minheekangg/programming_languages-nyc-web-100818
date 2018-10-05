@@ -11,7 +11,6 @@ languages.each do |function, lang_type|
   lang_type.each do |lang, type|
     curr_function << [{function => lang}]
     puts curr_function
-    new_new_hash = new_hash
   end
 end
 puts new_hash
