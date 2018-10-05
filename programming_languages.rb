@@ -6,8 +6,10 @@ new_hash_style = {}
 new_hash = {}
 
 grouped = languages.group_by {|el| el}
-  grouped.each do |style, data|
-    puts data
+  grouped.each do |gstyle, gdata|
+    gdata.each do |gkey, grest|
+      puts gkey
+    end
   end
 
   languages.each do |function, lang_type|
