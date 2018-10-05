@@ -10,12 +10,7 @@ new_hash = {}
       type.each do |key, value|
         new_hash_type[lang] = type
           curr_function = []
-          puts function
-            if curr_function.include?(function)
-              curr_function
-            else
-               curr_function << function
-             end
+          curr_function << function
       new_hash_style[lang] = {:style =>curr_function}
     end
     end
