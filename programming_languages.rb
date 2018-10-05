@@ -9,8 +9,9 @@ languages.each do |function, lang_type|
   lang_type.each do |lang, type|
     curr_function << [{function => lang}]
   end
+  puts curr_function
 end
-puts curr_function
+
 end
 
 =begin
