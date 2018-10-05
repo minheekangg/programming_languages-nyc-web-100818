@@ -8,11 +8,11 @@ languages.each do |function, lang_type|
   curr_function = []
   lang_type.each do |lang, type|
     curr_function << function
-    new_hash << [{lang => [function]}]
-    puts new_hash
+
   end
 
-
+  new_hash << [{lang => [function]}]
+  puts new_hash
 end
 
 end
