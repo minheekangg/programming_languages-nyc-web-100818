@@ -10,8 +10,9 @@ new_hash = {}
     lang_type.each do |lang, type|
 
       type.each do |key, value|
-          curr_function = []
+
         new_hash_type[lang] = type
+          curr_function = []
             if curr_function.include?(function)
               curr_function
             else
