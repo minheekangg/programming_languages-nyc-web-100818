@@ -2,6 +2,7 @@ def reformat_languages(languages)
 
 new_hash_type = {}
 curr_function = []
+new_hash_style = {}
 
   languages.each do |function, lang_type|
     lang_type.each do |lang, type|
