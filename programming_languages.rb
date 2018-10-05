@@ -9,11 +9,7 @@ languages.each do |function, lang_type|
   lang_type.each do |lang, type|
     curr_function << [{lang => function}]
   end
-  curr_function.each do |element|
-      element.each do |k,v|
-        puts element
-          style << v
-          puts style
+  puts curr_function.flatten
         end
       end
     end
