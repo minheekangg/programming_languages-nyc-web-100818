@@ -10,7 +10,7 @@ grouped = languages.group_by {|k,v| v}
   group_blank = []
   grouped.each do |gstyle, gdata|
     gdata.each do |gkey, grest|
-      puts gkey
+      group_blank << gkey
       grest.each do |glang, gnotneed|
     end
     end
