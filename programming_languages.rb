@@ -1,5 +1,5 @@
 def reformat_languages(languages)
-  puts languages.group_by {|k,v|  v}
+  puts languages.group_by {|k,v|  v}.join('')
 end
 
 end
