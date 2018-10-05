@@ -14,6 +14,9 @@ languages.each do |function, lang_type|
         style = []
         k.each do |key_k|
           style << v
+          puts style
+        end
+
 end
 
 end
