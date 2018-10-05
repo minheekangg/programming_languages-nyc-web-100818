@@ -1,19 +1,6 @@
 def reformat_languages(languages)
-  new_hash = []
-    new_hash_type = {}
-    new_hash_style = {}
-    curr_function = []
+  puts languages.group_by {|k,v|  v}
 
-languages.each do |function, lang_type|
-  curr_function = []
-  lang_type.each do |lang, type|
-    type.each do |t1, t2|
-    curr_function << function
-  end
-  new_hash << [{lang => [function]}]
-  puts new_hash
-end
-end
 
 end
 
