@@ -5,7 +5,6 @@ def reformat_languages(languages)
     puts grouped_k
     grouped_k.each do |grouped_first, grouped_second|
 
-    end
   end
   end
 end
