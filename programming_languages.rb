@@ -17,6 +17,7 @@ final_hash = []
     end
     end
   end
+  puts final_hash
   new_hash_style.each do |style_lang, style_style|
     style_style.each do |style_key, style_value|
     new_hash_type.each do |type_lang, type_type|
