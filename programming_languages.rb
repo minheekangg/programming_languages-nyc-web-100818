@@ -6,10 +6,11 @@ new_hash_style = {}
 new_hash = {}
 
   languages.each do |function, lang_type|
-      curr_function = []
+
     lang_type.each do |lang, type|
 
       type.each do |key, value|
+          curr_function = []
         new_hash_type[lang] = type
             if curr_function.include?(function)
               curr_function
