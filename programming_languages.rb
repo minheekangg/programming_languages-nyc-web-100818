@@ -10,7 +10,6 @@ grouped = languages.group_by {|k,v| v}
     gdata.each do |gkey, grest|
       puts gkey
       grest.each do |glang, gnotneed|
-        puts gnotneed
     end
     end
   end
