@@ -2,7 +2,9 @@ def reformat_languages(languages)
   grouped = languages.group_by {|k,v|  v}
 
   grouped.each do |grouped_k, grouped_v|
-    puts grouped_v
+    grouped_k.each do |grouped_first, grouped_second|
+      puts grouped_first
+    end
   end
 end
 
