@@ -4,6 +4,7 @@ new_hash_type = {}
 
 new_hash_style = {}
 new_hash = {}
+final_hash = []
 
 
 
