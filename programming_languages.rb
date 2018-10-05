@@ -11,7 +11,7 @@ grouped = languages.group_by {|k,v| v}
   grouped.each do |gstyle, gdata|
     group_blank = []
     gdata.each do |gkey, grest|
-      puts grest
+      puts gkey
       group_blank << gkey
     end
   end
