@@ -11,8 +11,7 @@ languages.each do |function, lang_type|
   end
   curr_function.each do |element|
       element.each do |k,v|
-        style = []
-        k.each do |key_k|
+        puts element
           style << v
           puts style
         end
