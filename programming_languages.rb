@@ -11,7 +11,6 @@ languages.each do |function, lang_type|
   end
 end
 puts curr_function
-puts new_hash
 end
 
 =begin
