@@ -6,13 +6,13 @@ new_hash_style = {}
 new_hash = {}
 
   languages.each do |function, lang_type|
-
     lang_type.each do |lang, type|
             curr_function = []
+            curr_function << function
       type.each do |key, value|
         new_hash_type[lang] = type
 
-          curr_function << function
+
       new_hash_style[lang] = {:style =>curr_function}
     end
     end
