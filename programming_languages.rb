@@ -17,7 +17,6 @@ new_hash = {}
                curr_function << function
              end
       new_hash_style[lang] = {:style =>curr_function}
-      puts new_hash_style
     end
     end
   end
