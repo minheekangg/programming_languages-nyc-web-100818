@@ -10,7 +10,7 @@ final_hash = []
 
   languages.each do |function, lang_type|
     lang_type.each do |lang, type|
-      final_hash << [{lang, :style => [function]}]
+      final_hash << ["#{lang}", :style => [function]}]
       type.each do |key, value|
         new_hash_type[lang] = type
     end
