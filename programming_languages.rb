@@ -7,9 +7,6 @@ new_hash = {}
 
 grouped = languages.group_by {|el| el|
   puts grouped
-end
-
-
 
   languages.each do |function, lang_type|
     lang_type.each do |lang, type|
