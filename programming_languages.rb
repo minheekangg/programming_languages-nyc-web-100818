@@ -9,7 +9,7 @@ languages.each do |function, lang_type|
   lang_type.each do |lang, type|
     curr_function << [{function => lang}]
   end
-  puts curr_function
+  grouped = curr_function.group_by {|el| el}
 end
 
 end
