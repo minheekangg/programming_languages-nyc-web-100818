@@ -5,7 +5,9 @@ new_hash_type = {}
 new_hash_style = {}
 new_hash = {}
 
+
 grouped = languages.group_by {|k,v| v}
+  group_blank = []
   grouped.each do |gstyle, gdata|
     gdata.each do |gkey, grest|
       puts gkey
