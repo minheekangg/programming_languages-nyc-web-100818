@@ -10,9 +10,7 @@ languages.each do |function, lang_type|
     curr_function << [{lang => function}]
   end
   puts curr_function.flatten
-        end
-      end
-    end
+    
 
 end
 
