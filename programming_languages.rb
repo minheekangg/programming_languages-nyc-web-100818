@@ -13,6 +13,7 @@ languages.each do |function, lang_type|
   new_hash << [{lang => [function]}]
   puts new_hash
 end
+end
 
 end
 
