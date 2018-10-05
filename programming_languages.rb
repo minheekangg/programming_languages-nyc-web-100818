@@ -9,7 +9,7 @@ grouped = languages.group_by {|el| el}
   grouped.each do |gstyle, gdata|
     gdata.each do |gkey, grest|
       grest.each do |glang, gnotneed|
-        puts glang
+        puts gnotneed
     end
     end
   end
