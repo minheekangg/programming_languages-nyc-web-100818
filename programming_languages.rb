@@ -16,6 +16,8 @@ languages.each do |function, lang_type|
           style << v
           puts style
         end
+      end
+    end
 
 end
 
