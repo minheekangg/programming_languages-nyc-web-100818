@@ -7,9 +7,6 @@ def reformat_languages(languages)
     end
   end
 end
-end
-
-end
 
 =begin
   languages.each do |function, lang_type|
